@@ -59,3 +59,19 @@ Merge Fast-Forward (FF):
 
 Merge No Fast-Forward (No FF):
 - Se utiliza para mantener un registro explícito de cuándo se integraron cambios y muestra claramente la fusión en la historia del proyecto.
+
+***
+## EJERCICIO 6: GIT
+### Haz un alias con la finalidad de que cuando escribamos el comando git log adog nos ejecute lo siguiente:
+
+    Vamos al terminar y ponemos el siguente comando:
+    $ git config --global alias.adog "log --all --oneline --decorate --graph"
+
+![❌ Error ❌](./img/Captura8.JPG "adog")
+
+Mediante el archivo local .git/config añadiremos las siguentes lineas:
+
+    [alias]
+    adog2 = log --all --oneline --decorate --graph
+
+![❌ Error ❌](./img/Captura9.JPG "adog")
