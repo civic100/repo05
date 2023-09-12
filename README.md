@@ -21,8 +21,20 @@ Realizamos mediante:
     $git add README.md
     $git commit -m "nombre del commit"
 
+![❌ Error ❌](./img/Captura2.JPG "New repository")
+
 ***
 ### 5.5 – En este caso, antes de hacer el merge sube ambas ramas al repositorio remoto. Verifica que se hayan subido correctamente. Lo hacemos así, ya que cuando realicemos el merge si nos equivocas podemos volver a clonar el repositorio sin necesidad de tener que volver a comenzar el ejercicio de 0.
+
+    Mediante el comando añadimos la rama "victor12092023" a remoto:
+    $ git push --set-upstream origin victor12092023 
+![❌ Error ❌](./img/Captura3.JPG "New branch")
+
+    Desde la pagina web de github lo revisamos:
+
+![❌ Error ❌](./img/Captura4.JPG "New branch git")
+    
+
 ***
 ### 5.6 – Basándote en el ejemplo que hemos visto anteriormente, realiza un commit no fast-forward en el que mergearemos la rama david02032022 con master.
 ***
