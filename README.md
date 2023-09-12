@@ -37,8 +37,25 @@ Realizamos mediante:
 
 ***
 ### 5.6 – Basándote en el ejemplo que hemos visto anteriormente, realiza un commit no fast-forward en el que mergearemos la rama david02032022 con master.
+
+    Con el comando:
+    $ git merge --no-ff victor12092023 -m "nombre ..."
+![❌ Error ❌](./img/Captura5.JPG "merge")
 ***
 ### 5.7 – Visualiza el resultado tanto mediante el comando git log --all --oneline --decorate --graph, como desde el pluging de VSC
 
+    Mediante el comando:
+    $ git log --all --oneline --decorate --graph
+
+![❌ Error ❌](./img/Captura6.JPG "merge")
+
+    Y con el pluging
+![❌ Error ❌](./img/Captura7.JPG "merge")
 ***
 ### 5.8 – Explica las diferencias entre un merge FF y un merge no FF
+
+Merge Fast-Forward (FF):
+- Se utiliza para mantener la historia simple y cuando trabajas en ramas temporales.
+
+Merge No Fast-Forward (No FF):
+- Se utiliza para mantener un registro explícito de cuándo se integraron cambios y muestra claramente la fusión en la historia del proyecto.
